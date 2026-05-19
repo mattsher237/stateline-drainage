@@ -54,6 +54,7 @@ a { color: var(--brand); }
 .btn-ghost { background: transparent; color: var(--brand); border: 2px solid var(--brand); }
 .btn-ghost:hover { background: var(--accent); color: var(--brand-dark); }
 .btn-full { width: 100%; padding: 16px; font-size: 1.05rem; margin-top: 8px; }
+.btn-disabled { opacity: .55; pointer-events: none; cursor: default; }
 
 /* Hero */
 .hero { background: linear-gradient(180deg, var(--accent), #fff); padding: 64px 0 56px; }
